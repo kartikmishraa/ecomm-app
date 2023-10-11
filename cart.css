@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#cartCard {
+  display: flex;
+  flex-direction: column;
+}
+.cart-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+  background-color: whitesmoke;
+}
+.cart-card img {
+  width: 5vw;
+  padding: 5px;
+}
+p#checkOutPayment {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+  color: #f5f5f5;
+}
+button#paymentButton {
+  font-size: 18px;
+  width: max-content;
+  margin: 20px;
+  margin-left: 45%;
+}
